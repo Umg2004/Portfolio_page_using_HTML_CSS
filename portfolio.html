@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 2em 0;
+        }
+        #about img {
+            max-width: 150px;
+            border-radius: 15%;
+        }
+        .skills-list, .projects-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li, .projects-list li {
+            margin: 1em 0;
+            padding: 1em;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .projects-list img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <p>UMANG GARG</p>
+</header>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="myimg.jpg" alt="Your Photo">
+        <p>Hello! I'm Umang Garg, a 4th-year student at IIT BHU. I hail from Bharatpur, Rajasthan, where I also completed my schooling. I have a strong background in software development, with experience in programming languages such as Python, Java, and C++. During my time at IIT BHU, I have worked on various projects involving web development, machine learning, and data analysis. My skills include problem-solving, coding, and project management. I am passionate about creating innovative solutions and constantly strive to enhance my knowledge and expertise in technology and software engineering.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>I have extensive experience in programming languages such as C, C++, Python, and Java.</li>
+            <li>I am skilled in competitive programming and have a strong understanding of data structures and algorithms</li>
+            <li>I have a keen interest in the fields of machine learning and deep learning.</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+            <li>
+                <h3>Diagnosis of patient’s lung condition - detection of crackles and wheezes
+                </h3>
+                <!-- <img src="project1.jpg" alt="Project 1 Image"> -->
+                <p>• Utilized the Librosa library for analysing and processing the audio signals. Using this library, the audio files are
+                    converted into visual representation as Spectrograms.</p>
+                <p>• Implemented a CNN model, which receives an input image which is basically a spectrogram of audio signals and
+                    predicts the presence of Wheezes and Crackles as an output
+                    </p>
+                <p>• Trained the CNN architecture model on the dataset including audio files and text files and got Binary cross entropy
+                    loss of 0.50, AUC value of 0.78 and Accuracy of 0.89 on the training dataset
+                    </p>
+                <p>• Exposure: Python, Numpy, Pamdas, Keras, Tenserflow, CNN.</p>
+            </li>
+            <li>
+                <h3>Sorting Visualizer</h3>
+                <!-- <img src="project2.jpg" alt="Project 2 Image"> -->
+                <video width="400px" height="300px" controls>
+                    <source src="vid.mp4" type="video/mp4">
+                    <!-- <source src="vid.webm" type="video/webm"> -->
+                    Your browser does not support the video tag.
+                </video>
+                <p> • Designed and implemented a sorting visualizer project using Python, showcasing proficiency in algorithms and
+                    visualization techniques.</p>
+
+                <p>• Exicuted three prominent sorting algorithms : Selection sort, Insertion sort and Bubble sort, demonstrating a
+                    solid grasp of algorithmic concept.</p>
+                <p>• Exposure : Python, Pygame, Various sorting algorithms.</p>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" download>Download my resume</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: uvg201900@gmail.com</p>
+        <p>Phone: 8875386326</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Umang Garg. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
